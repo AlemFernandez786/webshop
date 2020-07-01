@@ -1,0 +1,53 @@
+body{
+    font-size: 16px;
+    background-color: #DBCFB0;
+}
+
+.encabezado{
+    margin: auto;
+}
+.encabezado-botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #90B494;
+    height: 2.5rem;
+}
+
+.encabezado .logo{
+    
+    font-size: 2em;
+}
+.menu{
+    height: 100%;
+    width: 80%;
+    margin: 0;
+    padding-left: 0;
+    background-color: #90B494;
+    position: fixed;
+    transition: all 0.5s ease-in;
+    left: -100%;
+}
+
+.menu>li{
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    list-style: none;
+    font-size: 1.5em;
+}
+
+.menu>li a{
+    text-decoration: none;
+    color: #ED6A5A;
+}
+
+.boton-menu, .boton-carrito{
+    font-size:  2em;
+}
+
+.boton-menu a, .boton-carrito a{
+    color: #ED6A5A;
+    text-decoration: none;
+}
